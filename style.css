@@ -4,4 +4,38 @@
 
 body {
   font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: darkblue;
+}
+
+header {
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  display: block;
+  float: left;
+  background-color: whitesmoke;
+}
+
+a,
+nav {
+  color: darkblue;
+  padding: 1rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  max-width: 100rem;
+  justify-content: center;
+  margin: auto;
+  padding-top: 10rem;
 }
